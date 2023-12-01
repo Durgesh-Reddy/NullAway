@@ -3,7 +3,7 @@ on:
   pull_request:
   push:
     branches:
-      - master
+      - mas
 concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
